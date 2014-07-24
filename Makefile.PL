@@ -24,13 +24,14 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Carp" => 0,
     "POSIX" => 0,
+    "Pod::Usage" => 0,
     "strict" => 0,
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
     "Test::More" => 0
   },
-  "VERSION" => "1.0.0",
+  "VERSION" => "1.1.0",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -40,6 +41,7 @@ my %WriteMakefileArgs = (
 my %FallbackPrereqs = (
   "Carp" => 0,
   "POSIX" => 0,
+  "Pod::Usage" => 0,
   "Test::More" => 0,
   "strict" => 0,
   "warnings" => 0

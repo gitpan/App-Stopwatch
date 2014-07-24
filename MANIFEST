@@ -8,5 +8,6 @@ README.md
 bin/stopwatch
 dist.ini
 lib/App/Stopwatch.pm
+t/parse_argv.t
 t/release-cpan-changes.t
 t/simple.t

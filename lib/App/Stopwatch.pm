@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 package App::Stopwatch;
-$App::Stopwatch::VERSION = '1.0.0';
+$App::Stopwatch::VERSION = '1.1.0';
 # ABSTRACT: simple console stopwatch
 
 
@@ -19,7 +19,7 @@ App::Stopwatch - simple console stopwatch
 
 =head1 VERSION
 
-version 1.0.0
+version 1.1.0
 
 =head1 DESCRIPTION
 
