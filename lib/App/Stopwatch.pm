@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 package App::Stopwatch;
-$App::Stopwatch::VERSION = '1.1.0';
+$App::Stopwatch::VERSION = '1.2.0';
 # ABSTRACT: simple console stopwatch
 
 
@@ -19,7 +19,7 @@ App::Stopwatch - simple console stopwatch
 
 =head1 VERSION
 
-version 1.1.0
+version 1.2.0
 
 =head1 DESCRIPTION
 
@@ -38,6 +38,14 @@ After that the stopwatch will stop.
 
 This project uses Semantic Versioning standart for version numbers.
 Please visit L<http://semver.org/> to find out all about this great thing.
+
+=head1 SEE ALSO
+
+=over
+
+=item L<App::stopw>
+
+=back
 
 =head1 AUTHOR
 
